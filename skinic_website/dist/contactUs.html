@@ -6,17 +6,16 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>Registration</title>
+	<title>contact</title>
 	<meta name="description" content="Startup HTML template OptimizedHTML 5">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 	<link rel="stylesheet" href="css/main.min.css">
-	<link rel="stylesheet" href="css/intlTelInput.min.css">
 
 </head>
 
-<body class="loginRegister">
+<body class="contactPage">
 <!-- HEADER -->	
 	<header class="header">
 	   <div class="header__top widthWrapper flex">
@@ -27,18 +26,13 @@
 	      	         <li><a href="doctors.html">DOCTORS</a></li>
 	      	         <li><a href="pricing.html">PRICING</a></li>
 	      	         <li><a href="faq.html">FAQ</a></li>
-	      	         <li><a href="contactUs.html">CONTACT US</a></li>
+	      	         <li><a href="contactUs.html" class="clicked">CONTACT US</a></li>
 	      	         <li><span class="lang transformed hover">EN</span></li>
 	      	      </ul>
 	      <a href="#" class="button transformed">BOOK AN APPOINTMENT</a>
 	      <div class="hamburger-container">
 	      	<div class="hamburger-icon">
 	      	   <span class="hamburger_button hover"></span>
-	      	</div>	
-	      </div>
-	      <div class="close-container">
-	      	<div class="close-icon active">
-	      	   <span class="close_button hover"></span>
 	      	</div>	
 	      </div>
 	   </div>
@@ -74,124 +68,79 @@
 	         </ul>
 	      </div>
 	   </div>
-	   <div class="login__menu flex">
-	   	<div class="header__menu-photo">
-	   		
-	   	</div>
-	   	<div class="header__menu-content">
-	   		<img src="images/src/logo.svg" alt="" class="logo">
-	   		<div class="header__menu-content--container">
-	   			<div class="header__menu-content--container-flex">
-	   			<h1>REGISTRATION</h1>
-	   			<h2>Please enter your name</h2>
-	   			<ul class="steps flex">
-	   				<div class="flex current">
-	   					<span>1</span>	
-	   				</div>
-	   				<div class="flex">
-	   					<span>2</span>	
-	   				</div>
-	   				<div class="flex">
-	   					<span>3</span>	
-	   				</div>
-	   			</ul>
-	   			<form action="">
-	   				<label for="email">
-	   					<span>Name</span>
-	   					<div class="status">
-	   						<input type="text">
-   						</div>
-	   				</label>
-	   				<label for="pass">
-	   					<span>Second Name</span>
-	   					<div class="status">
-	   						<input type="text">
-   						</div>
-	   				</label>
-	   				<button type="button">Next</button>
-	   				<p>Already have an account? <a href="#">Sign in</a></p>
-	   				<a href="#">Forgot Password?</a>
-	   			</form>
-	   			</div>
-	   		</div>
-	   		<div class="header__menu-content--container">
-	   			<div class="header__menu-content--container-flex">
-		   			<h1 class="regh1">REGISTRATION</h1>
-		   			<h2>Please enter the SMS confirmation code</h2>
-		   			<ul class="steps flex">
-		   				<div class="flex done">
-		   					<img src="images/src/svoosh.svg" alt="">	
-		   				</div>
-		   				<div class="flex current">
-		   					<span>2</span>	
-		   				</div>
-		   				<div class="flex">
-		   					<span>3</span>	
-		   				</div>
-		   			</ul>
-		   			<form action="">
-		   				<label for="phone">
-		   					<span>Phone number</span>
-		   					<div class="status">
-		   						<input type="number" id="phone">
-	   						</div>
-		   				</label>
-		   				<label for="pass forSMS-container">
-		   					<span>Enter your SMS-code</span>
-		   					<div class="status sms flex">
-		   						<input type="number" maxlength="1" class="forSMS"> 
-		   						<input type="number" maxlength="1" class="forSMS" >
-		   						<input type="number" maxlength="1" class="forSMS">
-		   						<input type="number" maxlength="1" class="forSMS">
-	   						</div>
-		   				</label>
-		   				<p>Haven’t received the code? <a href="#">Re-send SMS!</a></p>
-		   				<button type="button">Next</button>
-		   				<p>Already have an account? <a href="#">Sign in</a></p>
-		   				<a href="#">Forgot Password?</a>
-		   			</form>
-	   			</div>
-
-	   		</div>
-	   		<div class="header__menu-content--container">
-	   			<div class="header__menu-content--container-flex">
-	   			<h1 class="regh1">REGISTRATION</h1>
-	   			<h2>Please create your password</h2>
-	   			<ul class="steps flex">
-	   				<div class="flex done">
-	   					<img src="images/src/svoosh.svg" alt="">	
-	   				</div>
-	   				<div class="flex done">
-	   					<img src="images/src/svoosh.svg" alt="">	
-	   				</div>
-	   				<div class="flex current">
-	   					<span>3</span>	
-	   				</div>
-	   			</ul>
-	   			<form action="">
-	   				<label for="phone">
-	   					<span>Password</span>
-	   					<div class="status">
-	   						<input type="Password">
-   						</div>
-	   				</label>
-	   				<label for="pass">
-	   					<span>Password again</span>
-	   					<div class="status">
-	   						<input type="password">
-   						</div>
-	   				</label>
-	   				<button type="button">Register</button>
-	   				<p>Already have an account? <a href="#">Sign in</a></p>
-	   				<a href="#">Forgot Password?</a>
-	   			</form>
-	   			</div>
-	   		</div>
-
-	   	</div>
-	   </div>
 	</header>
 <!-- HEADER ENDS -->
+
+<section class="map">
+	<img src="images/src/map.png">
+</section>
+<section>
+	<div class="widthWrapper mapContent">
+		<h1>Contact</h1>
+		<ul class="contactLinks flex">
+			<li><p>Appointment requests <br>via <a href="#">Whatsapp</a></p></li>
+			<li><p>Call us</p><a href="tel:+41 44 262 18 18">+41 44 262 18 18</a><a href="tel:+41 79 262 18 18">+41 79 262 18 18</a></li>
+			<li><p>Write us</p><a href="mailto:praxis@daniselin.ch">praxis@daniselin.ch</a></li>
+		</ul>
+	</div>
+</section>
+
+<section class="covidInfo">
+	<div class="widthWrapper">
+		<h2>COVID INFORMATION</h2>
+		<p>We expanded the already existing protective measures so that all treatments can take place within the necessary safety framework.
+			<br><br>
+		We do not have a standard waiting room but separate waiting islands. Thus, safety distance and discretion are still maintained.</p>
+	</div>
+</section>
+
+<section class="findUs">
+	<div class="widthWrapper">
+		<h2>Opening hours</h2>
+		<ul class="workingHours flex">
+			<li>
+				<span>Monday</span>
+				<p>10 am – 1pm <br>2 pm – 6 pm</p>
+			</li>
+			<li>
+				<span>Tuesday</span>
+				<p>9 am – 1pm</p>
+			</li>
+			<li>
+				<span>Wednesday</span>
+				<p>10 am – 1pm<br>2 pm – 6 pm</p>
+			</li>
+			<li>
+				<span>Thursday</span>
+				<p>Closed</p>
+			</li>
+			<li>
+				<span>Friday</span>
+				<p>10 am – 1pm <br>2 pm – 6 pm</p>
+			</li>
+			<li>
+				<span>Saturday</span>
+				<p>Open according to <br>the online calendar</p>
+			</li>
+		</ul>
+		<ul class="directionAddress flex">
+			<li>
+				<h2>Direction</h2>
+				<h3>Car & Parking</h3>
+				<p>3 minutes from parking garage Talgarten (Kaufleuten,<br> Nüschelerstrasse 31)<br>
+5 minutes from parking garage Jelmoli (Steinmühleplatz 1)<br>
+7 minutes from parking garage Urania (Uraniastrasse 3)</p>
+				<h3>Public transport</h3>
+				<p>3 minutes from Paradeplatz (tram 2/6/7/8/11/13/17)<br>
+3 minutes from Rennweg (tram 6/7/11/13/17)</p>
+			</li>
+			<li>
+				<h2>Address</h2>
+				<p>Dr. Dan Iselin Practice Bahnhofstrasse 37 | CH-8001 Zürich</p>
+			</li>
+		</ul>
+	</div>
+</section>
 
 <!-- FOOTER -->
 <footer class="footer">
@@ -231,8 +180,6 @@
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
-<script src="js/tel/js/intlTelInput.js"></script>
-<script src="js/tel.js"></script>
 <script src="js/app.js"></script>
 <!-- FOOTER ENDS-->
 </body>
